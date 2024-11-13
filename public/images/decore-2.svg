@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1367 1367">
+    <style>
+        *{
+            fill:#fff;
+        }
+        @-webkit-keyframes rotating {
+            from {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes rotating {
+            from {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        .outer-circle,.inner-circle{
+            -webkit-animation: rotating 150s linear infinite;
+            animation: rotating 150s linear infinite;
+            -webkit-transform-origin:center;
+            -ms-transform-origin:center;
+            transform-origin:center;
+        }
+        .outer-circle{
+            -webkit-animation-duration: 300s;
+            animation-duration: 300s;
+        }
+        .inner-circle {
+            animation-direction: reverse;
+            -webkit-animation-duration: 70s;
+            animation-duration: 70s;
+        }
+    </style>
+    <g class="outer-circle">
+        <path d="M683.4 24.4h2v68.7h-2z" />
+        <path transform="rotate(-8.001 597.245 64.654)" d="M596.4 30.3h2V99h-2z" />
+        <path transform="rotate(-15.997 512.056 82.673)" d="M511 48.3h2V117h-2z" />
+        <path transform="rotate(-23.999 429.956 112.402)" d="M428.9 78.1h2v68.7h-2z" />
+        <path d="M370.2 182.9l-.3-.4-36.1-57.9 1.6-1 .3.4 36.1 57.8z" />
+        <path transform="rotate(-72.002 88.825 490.003)" d="M87.9 455.7h2v68.7h-2z" />
+        <path transform="rotate(-80.003 67.573 574.667)" d="M66.6 540.3h2V609h-2z" />
+        <path transform="rotate(-88 58.335 661.455) scale(1.00001)" d="M57.4 627.1h2v68.7h-2z" />
+        <path d="M27.2 753.2l-.2-1.9.5-.1 67.8-7.1.2 2H95z" />
+        <path transform="rotate(-13.993 76.292 834.767)" d="M41.9 833.7h68.7v2H41.9z" />
+        <path transform="rotate(-61.985 388.917 1236.143)" d="M354.6 1235.1h68.7v2h-68.7z" />
+        <path d="M457.8 1304.3l-1.9-.6.2-.5 23.3-64.1 1.9.7z" />
+        <path transform="rotate(-77.989 552.473 1295.942)" d="M518.1 1294.9h68.7v2h-68.7z" />
+        <path transform="rotate(-86.015 638.864 1308.208) scale(1.00002)" d="M604.5 1307.2h68.7v2h-68.7z" />
+        <path transform="rotate(-4 726.169 1308.392) scale(1.00004)" d="M725.2 1274h2v68.7h-2z" />
+        <path d="M1202.3 1092.1l-.4-.4-53.8-41.9 1.3-1.6.3.3 53.8 42z" />
+        <path transform="rotate(-60 1224.732 997.9)" d="M1223.7 963.5h2v68.7h-2z" />
+        <path transform="rotate(-68 1263.064 919.464)" d="M1262.1 885.1h2v68.7h-2z" />
+        <path transform="rotate(-76.001 1290.163 836.528)" d="M1289.2 802.2h2v68.7h-2z" />
+        <path d="M1339.5 755.2l-.5-.1-67.8-7.1.2-2 .5.1 67.8 7.1z" />
+        <path transform="rotate(-1.991 1308.663 663.387)" d="M1274.3 662.4h68.7v2h-68.7z" />
+        <path d="M1065 232.6l-1.5-1.2 44.1-52.7 1.5 1.3-.3.4z" />
+        <path transform="rotate(-58.028 1015.826 154.262)" d="M981.4 153.3h68.7v2h-68.7z" />
+        <path d="M925.7 145l-1.8-.8.2-.5 27.8-62.3 1.7.8-.2.5zM848.3 116.5l-1.9-.6.1-.4 18.8-65.6 1.9.6-.1.4z" />
+        <path transform="rotate(-82.01 771.485 64.922)" d="M737.1 63.9h68.7v2h-68.7z" />
+    </g>
+    <g class="inner-circle">
+        <path d="M683.4 299.6h2v68.7h-2z" />
+        <path transform="rotate(-8.001 635.581 337.12)" d="M634.7 302.8h2v68.7h-2z" />
+        <path transform="rotate(-15.997 588.014 347.236)" d="M586.9 312.9h2v68.7h-2z" />
+        <path transform="rotate(-23.999 542.046 363.806)" d="M541 329.4h2v68.7h-2z" />
+        <path d="M516.2 416.2l-.3-.4-36.1-57.8 1.6-1.1 36.4 58.3z" />
+        <path transform="rotate(-40.002 459.211 415.173)" d="M458.2 380.8h2v68.7h-2z" />
+        <path d="M448.9 472.7l-.4-.3-50.7-45.6 1.3-1.5 51.1 45.9zM421.8 507.4l-57-38.4 1.1-1.6.4.3 56.6 38.1z" />
+        <path transform="rotate(-63.998 369.316 529.607)" d="M368.3 495.3h2V564h-2z" />
+        <path transform="rotate(-21.982 358.562 814.138)" d="M324.2 813.2h68.7v2h-68.7z" />
+        <path transform="rotate(-30.018 379.815 858.006)" d="M345.5 857.1h68.7v2h-68.7z" />
+        <path transform="rotate(-38.001 407.079 898.63)" d="M372.7 897.7h68.7v2h-68.7z" />
+        <path d="M416.5 960.4l-1.4-1.4.3-.3 47.4-49.1 1.4 1.4-.4.4z" />
+        <path transform="rotate(-54.056 476.896 966.454)" d="M442.6 965.5h68.7v2h-68.7z" />
+        <path transform="rotate(-12 755.32 1026.52)" d="M754.3 992.1h2v68.7h-2z" />
+        <path transform="rotate(-19.999 802.334 1013.207)" d="M801.3 978.8h2v68.7h-2z" />
+        <path transform="rotate(-28.003 846.852 993.365)" d="M845.9 959.1h2v68.7h-2z" />
+        <path transform="rotate(-36.002 888.377 967.64)" d="M887.4 933.3h2v68.7h-2z" />
+        <path d="M949.1 961.7l-47.8-49.4 1.5-1.3.3.3 47.4 49.1z" />
+        <path transform="rotate(-9.979 1028.53 624.187)" d="M994 623.1h68.7v2H994z" />
+        <path d="M984.3 588.2l-.6-1.8.5-.2 64.8-21.1.6 1.9z" />
+        <path transform="rotate(-25.986 998.317 531.37)" d="M964.1 530.4h68.7v2h-68.7z" />
+        <path transform="rotate(-34.014 974.153 488.988)" d="M939.8 488h68.7v2h-68.7z" />
+        <path d="M919.4 474.1l-1.4-1.4.4-.4 50.7-45.6 1.3 1.5-.4.3z" />
+    </g>
+    <path d="M683.5 1190.3c-68.4 0-134.8-13.4-197.3-39.8-60.3-25.5-114.5-62.1-161.1-108.6-46.5-46.5-83.1-100.7-108.6-161.1-26.4-62.5-39.8-128.8-39.8-197.3s13.4-134.8 39.8-197.3c25.5-60.3 62.1-114.5 108.6-161.1 46.5-46.5 100.7-83.1 161.1-108.6 62.5-26.4 128.8-39.8 197.3-39.8s134.8 13.4 197.3 39.8c60.3 25.5 114.5 62.1 161.1 108.6 46.5 46.5 83.1 100.7 108.6 161.1 26.4 62.5 39.8 128.8 39.8 197.3s-13.4 134.8-39.8 197.3c-25.5 60.3-62.1 114.5-108.6 161.1-46.5 46.5-100.7 83.1-161.1 108.6-62.5 26.4-128.9 39.8-197.3 39.8zm0-1012.6c-68.3 0-134.5 13.4-196.9 39.7-60.2 25.5-114.3 61.9-160.8 108.4-46.4 46.4-82.9 100.5-108.4 160.8-26.4 62.4-39.7 128.6-39.7 196.9s13.4 134.5 39.7 196.9c25.5 60.2 61.9 114.3 108.4 160.8 46.4 46.4 100.5 82.9 160.8 108.4 62.4 26.4 128.6 39.7 196.9 39.7s134.5-13.4 196.9-39.7c60.2-25.5 114.3-61.9 160.8-108.4 46.4-46.4 82.9-100.5 108.4-160.8 26.4-62.4 39.7-128.6 39.7-196.9s-13.4-134.5-39.7-196.9c-25.5-60.2-61.9-114.3-108.4-160.8-46.4-46.4-100.5-82.9-160.8-108.4-62.4-26.3-128.6-39.7-196.9-39.7z" />
+    <path d="M683.5 692.5c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9zm0-15c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6z" />
+</svg>
