@@ -33,14 +33,72 @@ const HomePage: React.FC = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <>
+        <div
+          id="loader"
+          className="fixed inset-0 flex items-center justify-center h-screen w-screen bg-black/70 z-10"
+        >
+          <svg className="pl" width="240" height="240" viewBox="0 0 240 240">
+            <circle
+              className="pl__ring pl__ring--a"
+              cx="120"
+              cy="120"
+              r="105"
+              fill="none"
+              stroke="#000"
+              strokeWidth="20"
+              strokeDasharray="0 660"
+              strokeDashoffset="-330"
+              strokeLinecap="round"
+            ></circle>
+            <circle
+              className="pl__ring pl__ring--b"
+              cx="120"
+              cy="120"
+              r="35"
+              fill="none"
+              stroke="#000"
+              strokeWidth="20"
+              strokeDasharray="0 220"
+              strokeDashoffset="-110"
+              strokeLinecap="round"
+            ></circle>
+            <circle
+              className="pl__ring pl__ring--c"
+              cx="85"
+              cy="120"
+              r="70"
+              fill="none"
+              stroke="#000"
+              strokeWidth="20"
+              strokeDasharray="0 440"
+              strokeLinecap="round"
+            ></circle>
+            <circle
+              className="pl__ring pl__ring--d"
+              cx="155"
+              cy="120"
+              r="70"
+              fill="none"
+              stroke="#000"
+              strokeWidth="20"
+              strokeDasharray="0 440"
+              strokeLinecap="round"
+            ></circle>
+          </svg>
+        </div>
+      </>
+    );
   }
 
   return (
     <>
-      <section className="py-20 bg-primary-to-green">
-        <div className="container mx-auto">
-          <h2 className="text-center">My Blogs</h2>
+      <section className="py-1 sm:py-6 bg-primary-to-green">
+        <div className="container mx-auto px-4">
+          <h2 className="text-center text-xl md:text-2xl xl:text-3xl font-bold my-4">
+            My Blogs
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {posts.map((post) => (
               <>
@@ -49,7 +107,7 @@ const HomePage: React.FC = () => {
                   key={post.id}
                   className="inter-var w-full h-full"
                 >
-                  <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-6 border  ">
+                  <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-4 sm:p-6 border  ">
                     <CardItem
                       translateZ="5"
                       className="text-xl font-bold text-neutral-600 dark:text-white"
