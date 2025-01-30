@@ -102,7 +102,7 @@ const AdminPage: React.FC = () => {
   return (
     <section className="py-20 bg-primary-to-green">
       <div className="container">
-        <h2 class="text-center text-xl md:text-2xl xl:text-3xl font-bold my-4">
+        <h2 className="text-center text-xl md:text-2xl xl:text-3xl font-bold my-4">
           My Blogs
         </h2>
         <div className="grid grid-cols-[300px_1fr] px-10 gap-4">
