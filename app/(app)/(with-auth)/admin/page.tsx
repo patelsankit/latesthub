@@ -15,6 +15,7 @@ const QuillNoSSRWrapper = dynamic(() => import("react-quill"), { ssr: false });
 import "react-quill/dist/quill.snow.css";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 interface Post {
   id: string;
@@ -98,6 +99,23 @@ const AdminPage: React.FC = () => {
       }
     }
   };
+
+
+
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    const passcode = prompt("Enter Admin Passcode:");
+    if (passcode === "9574540106") {
+      setIsAuthenticated(true);
+    } else {
+      alert("Incorrect Passcode! Redirecting...");
+      router.push("/");
+    }
+  }, []);
+
+  if (!isAuthenticated) return null;
 
   return (
     <section className="py-20 bg-primary-to-green">

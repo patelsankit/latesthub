@@ -95,11 +95,11 @@ const HomePage: React.FC = () => {
   return (
     <>
       <section className="py-1 sm:py-6 bg-primary-to-green">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 md:px-10">
           <h2 className="text-center text-xl md:text-2xl xl:text-3xl font-bold my-4">
             My Blogs
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-7">
             {posts.map((post) => (
               <>
                 {/* <div key={post.id}> */}
@@ -130,21 +130,11 @@ const HomePage: React.FC = () => {
                         />
                       )}
                     </CardItem>
-                    <div className="flex justify-between items-center mt-20">
-                      <CardItem
-                        translateZ={5}
-                        as={Link}
-                        href="https://twitter.com/mannupaaji"
-                        target="__blank"
-                        className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-                      >
-                        &nbsp;
-                        {/* Try now → */}
-                      </CardItem>
+                    <div className="flex justify-end items-center mt-14">
                       <CardItem
                         translateZ={5}
                         as="button"
-                        className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                        className="px-5 py-2.5 dark:active:bg-white/50 active:bg-black/50 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                       >
                         Read more{" "}
                       </CardItem>
