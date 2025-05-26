@@ -116,8 +116,15 @@ export default function NavbarComponent() {
           </Link>
         </NavbarItem> */}
       </NavbarContent>
-
       <NavbarContent justify="end" className="gap-2 sm:gap-4">
+        <a
+          target="_blank"
+          className="text-[#7460ff] hover:text-[#aea4f5]"
+          href="https://patelsankit.vercel.app"
+        >
+          <span className="max-sm:hidden">Patelsankit</span>
+          <span className="sm:hidden">PS</span>
+        </a>
         <NavbarItem className="flex">
           <ThemeSwitcher />
         </NavbarItem>
